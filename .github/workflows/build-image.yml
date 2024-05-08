@@ -45,7 +45,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: "server"
-          target: "dev"
           file: "server/Dockerfile"
           tags: |
             ${{ steps.meta.outputs.tags }}
