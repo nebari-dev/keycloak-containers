@@ -36,7 +36,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            quay.io/aktech/keycloak
+            quay.io/quansight/keycloak
           tags: |
             type=ref,event=tag
             type=sha
